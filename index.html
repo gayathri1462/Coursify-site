@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coursify</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!--CSS stylesheets-->
+  <link rel="stylesheet" href="styles.css" />
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+
+  <!--Font Awesome-->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section class="main">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container ">
+
+        <a class="navbar-brand" href="#"><i class="fas fa-2x fa-graduation-cap"></i>Coursify</a>
+        <button class="navbar-toggler icon-bar" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Live Classes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Video library</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Course</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Book</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Board</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Exam</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </section>
+  <section class="main-image">
+    <div class="center justify-content-center">
+      <h1 class="title">Clarify your doubts in your language.</h1>
+      <button type="button" class="text-center btn btn-danger btn-lg mt-5"><i class="fas fa-download pr-2"></i>Ask your doubt now</button>
+    </div>
+  </section>
+  <section id="video-section">
+    <div class="row-card col-lg-12">
+      <div class="col-lg-6">
+        <img src="images/live.jpg" class="video-image" />
+      </div>
+      <div class="col-lg-6 video-frame">
+        <video id="myVideo" width="100%" controls>
+          <source src="images/video1.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+      </div>
+    </div>
+  </section>
+  <section id="cards">
+    <div class="row-card col-lg-12">
+      <div class="card">
+        <div class="card-body">
+          <img src="images/img1.png" alt="">
+          <h3>40,000+</h3>
+          <p>Doubts Cleared</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img src="images/img2.png" alt="">
+          <h3>20+</h3>
+          <p>state boards</p>
+        </div>
+      </div>
+      <div class="card">
+
+        <div class="card-body">
+          <img src="images/img3.png" alt="">
+          <h3>1,000,000+</h3>
+          <p>Video Lectures</p>
+        </div>
+      </div>
+      <div class="card">
+
+        <div class="card-body">
+          <img src="images/img4.png" alt="">
+          <h3>5,000+</h3>
+          <p>Books Covered</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section id="section2">
+    <div class="row col-lg-12">
+      <div class="col-lg-6 title2">
+        <h1>Solve your doubts <span style="color:#009ffd">faster.</span></h1>
+        <table>
+          <tr>
+            <td><img src="images/img4.png" alt=""></td>
+            <td>
+              <h3> Accessible everywhere</h3>
+              <p> Access to quality education anytime,anywhere.</p>
+            </td>
+          </tr>
+          <tr>
+            <td><img class="icon" src="images/img5.png" alt=""></td>
+            <td>
+              <h3> 1 million+ videos</h3>
+              <p>Unlimited access to video solutions.</p>
+            </td>
+          </tr>
+        </table>
+
+      </div>
+      <div class="col-lg-6">
+        <img src="images/section2.jpg" class="video-image" />
+      </div>
+  </section>
+  <section class="work">
+    <h1 class="title3">How it works?</h1>
+    <div class="row col-lg-12 work-flow">
+      <div class="box col-lg-3 offset-1">
+        <img class="flow" src="images/1.jpg" alt="">
+        <p class="text">Have a doubt?</p>
+      </div>
+      <div class="box col-lg-1">
+        <i class="arrow fas fa-4x fa-angle-right"></i>
+      </div>
+      <div class="box col-lg-3">
+        <img class="flow" src="images/2.jpg" alt="">
+        <p class="text">Type your question or upload an image</p>
+      </div>
+      <div class="box col-lg-1">
+        <i class="arrow fas fa-4x fa-angle-right"></i>
+      </div>
+      <div class="box col-lg-3">
+        <img class="flow" src="images/3.jpg" alt="">
+        <p class="text">Get your solution!</p>
+      </div>
+    </div>
+    <div class="text-center">
+      <button type="button" class="btn btn-danger btn-lg">Clarify your doubts now!</button>
+    </div>
+  </section>
+
+  <section class="live">
+    <h1 class="title3"><span style="color:#009ffd">LIVE </span><span style="color:black">CLASSES </span></h1>
+    <div class="row col-lg-12">
+      <div class="col-lg-6">
+        <div class="live-video">
+          <div class="from-body">
+            <h5 class="from-title">What is the heart made of?</h5>
+          </div>
+          <ul class="list-group list-group-flush" style="padding:1rem">
+            <li class="list-group-item">Muscles</li>
+            <li class="list-group-item">Bones</li>
+          </ul>
+          <div class="text-center">
+            <button type="button" class="play-btn fas fa-4x fa-play btn btn-primary" data-toggle="modal" data-target="#live-class"></button>
+          </div>
+
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="live-class" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <video width="100%" controls>
+                  <source src="images/video1.mp4" type="video/mp4" /></video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 icons">
+
+        <img class="icon" src="images/img5.png" alt="">
+        <div class="pt-3">
+          <h3> Accessible everywhere</h3>
+          <p> Access to quality education anytime,anywhere.</p>
+        </div>
+
+        <img class="icon" src="images/img6.png" alt="">
+        <div class="pt-3">
+          <h3>Expert Teachers</h3>
+          <p>Unlimited access to video solutions.</p>
+        </div>
+
+        <img class="icon" src="images/img7.png" alt="">
+        <div class="pt-3">
+          <h3>Interactive Sessions</h3>
+          <p>Small groups for maximum studen-teaher interaction.</p>
+        </div>
+      </div>
+    </div>
+    <div class="text-center" style="padding:2rem">
+      <h2 class="title3 pt-3">FIRST CLASS FREE</h2>
+      <button type="button" class="btn btn-danger btn-lg">Book a class now!</button>
+    </div>
+  </section>
+  <section class="JEE pt-5">
+    <h1 class="title4"><span style="color:#009ffd">JEE </span>MAINS & ADVANCED PREPARATION</h1>
+    <div class="container carbg">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="content">
+              <img src="images/c1.jpg" alt="Los Angeles" style="width:80%;">
+              <h2>Micro Concept Vidoes</h2>
+              <p>Find Multilingual video explainations important and frequently confused concepts from every subject.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="content">
+              <img src="images/c2.jpg" alt="Los Angeles" style="width:80%;">
+              <h2>Micro Concept Vidoes</h2>
+              <p>Find Multilingual video explainations important and frequently confused concepts from every subject.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="content">
+              <img src="images/c3.jpg" alt="Los Angeles" style="width:80%;">
+              <h2>Micro Concept Vidoes</h2>
+              <p>Find Multilingual video explainations important and frequently confused concepts from every subject.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <div class="text-center btn3">
+      <button type="button" class="btn btn-danger btn-lg">Prepare for JEE now!</button>
+    </div>
+  </section>
+  <section class="NEET pt-5">
+    <h1 class="title4"><span style="color:#009ffd">NEET </span> PREPARATION</h1>
+    <div class="container carbg">
+      <div id="myCarousel1" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel1" data-slide-to="1"></li>
+          <li data-target="#myCarousel1" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="content">
+              <img src="images/c3.jpg" alt="Los Angeles" style="width:80%;">
+              <h2>Micro Concept Vidoes</h2>
+              <p>Find Multilingual video explainations important and frequently confused concepts from every subject.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="content">
+              <img src="images/c2.jpg" alt="Los Angeles" style="width:80%;">
+              <h2>Micro Concept Vidoes</h2>
+              <p>Find Multilingual video explainations important and frequently confused concepts from every subject.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="content">
+              <img src="images/c1.jpg" alt="Los Angeles" style="width:80%;">
+              <h2>Micro Concept Vidoes</h2>
+              <p>Find Multilingual video explainations important and frequently confused concepts from every subject.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel1" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel1" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <div class="text-center btn3">
+      <button type="button" class="btn btn-danger btn-lg">Prepare for NEET now!</button>
+    </div>
+  </section>
+  <section>
+    <h1 class="title4"><span style="color:#009ffd">EXPLORE THE SUBJECTS WITH US!</span></h1>
+    <div class="row-card col-lg-12">
+      <div class="card">
+        <div class="card-body">
+          <img src="images/algebra.png" alt="">
+          <h3 class="pt-2">Maths</h3>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img src="images/relativity.png" alt="">
+          <h3 class="pt-2">Physics</h3>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img src="images/biology.png" alt="">
+          <h3 class="pt-2">Biology</h3>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img src="images/chemistry.png" alt="">
+          <h3 class="pt-2">Chemistry</h3>
+        </div>
+      </div>
+    </div>
+    <div id="myDIV">
+      <div class="row-card col-lg-12">
+        <div class="card">
+          <div class="card-body">
+            <img src="images/coding.png" alt="">
+            <h3 class="pt-2">Programming</h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <img src="images/electronic-circuit.png" alt="">
+            <h3 class="pt-2">Electronics</h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <img src="images/map.png" alt="">
+            <h3 class="pt-2">Geography</h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <img src="images/paint.png" alt="">
+            <h3 class="pt-2">Painting</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center">
+      <button type="button" class="btn btn-primary" onclick="myFunction()">View All</button>
+    </div>
+  </section>
+  <section>
+    <h1 class="title4"><span style="color:#009ffd">Free Access </span>to 5000+ books</h1>
+    <p style="text-align:center;font-weight:bold;">Get access to virtual library of 5000+ text books and reference books <br /> of various stateboards and competitive exams</p>
+
+    <div class="row-card col-lg-12">
+      <div class="card">
+        <div class="card-body">
+          <img src="images/1.png" alt="">
+          <h3 class="pt-2">HC Verma</h3>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img src="images/2.png" alt="">
+          <h3 class="pt-2">NCERT</h3>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img src="images/3.png" alt="">
+          <h3 class="pt-2">KC Sinha</h3>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img src="images/4.png" alt="">
+          <h3 class="pt-2">Errorless</h3>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img src="images/5.png" alt="">
+          <h3 class="pt-2">Tata McGraw Hill</h3>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img src="images/5.png" alt="">
+          <h3 class="pt-2">RD Sharma</h3>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img src="images/4.png" alt="">
+          <h3 class="pt-2">Pradeep's</h3>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img src="images/3.png" alt="">
+          <h3 class="pt-2">SL Arora</h3>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img src="images/2.png" alt="">
+          <h3 class="pt-2">Maths</h3>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img src="images/1.png" alt="">
+          <h3 class="pt-2">Maths</h3>
+        </div>
+      </div>
+  </section>
+  <section>
+    <h1 class="title4"><span style="color:#009ffd">State Boards</span></h1>
+    <p style="text-align:center;font-weight:bold;">Learn your board syllabus from the best teachers with us</p>
+
+    <div class="row-card col-lg-12">
+      <div class="card">
+        <div class="card-body">
+          <img style="width:150px" src="images/t.png" alt="">
+          <h3 class="pt-2">Tamilnadu</h3>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <img  style="width:150px" src="images/p.jpg" alt="">
+          <h3 class="pt-2">Punjab</h3>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img style="width:150px" src="images/a.jpg" alt="">
+          <h3 class="pt-2">Andhra Pradesh</h3>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img style="width:150px" src="images/w.jpg" alt="">
+          <h3 class="pt-2">West Bengal</h3>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img style="width:150px" src="images/ma.jpg" alt="">
+          <h3 class="pt-2">Madhya pradesh</h3>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img style="width:200px"  src="images/u.jpg" alt="">
+          <h3 class="pt-2">Uttar Pradesh</h3>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img style="width:200px" src="images/m.jpg" alt="">
+          <h3 class="pt-2">Maharastra</h3>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img style="width:200px" src="images/ke.jpg" alt="">
+          <h3 class="pt-2">Kerala</h3>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img style="width:150px" src="images/r.jpg" alt="">
+          <h3 class="pt-2">Rajasthan</h3>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img style="width:150px" src="images/g.png" alt="">
+          <h3 class="pt-2">Gujarat</h3>
+        </div>
+      </div>
+  </section>
+<section>
+    <h1 class="title4"><span style="color:#009ffd">MEET OUR EXPERT TUTORS!</span></h1>
+  <div class="row-card">
+    <div class="profile-card">
+      <div class="card-header">
+        <div class="pic">
+          <img src="images/pic.png" alt="">
+        </div>
+        <div class="name">John Doe</div>
+        <div class="desc">Developer & Designer</div>
+        <div class="sm">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-github"></a>
+          <a href="#" class="fab fa-youtube"></a>
+        </div>
+        <a href="#" class="contact-btn">Contact Me</a>
+      </div>
+    </div>
+    <div class="profile-card ">
+      <div class="card-header">
+        <div class="pic">
+          <img src="images/pic.png" alt="">
+        </div>
+        <div class="name">John Doe</div>
+        <div class="desc">Developer & Designer</div>
+        <div class="sm">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-github"></a>
+          <a href="#" class="fab fa-youtube"></a>
+        </div>
+        <a href="#" class="contact-btn">Contact Me</a>
+      </div>
+    </div>
+    <div class="profile-card ">
+      <div class="card-header">
+        <div class="pic">
+          <img src="images/pic.png" alt="">
+        </div>
+        <div class="name">John Doe</div>
+        <div class="desc">Developer & Designer</div>
+        <div class="sm">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-github"></a>
+          <a href="#" class="fab fa-youtube"></a>
+        </div>
+        <a href="#" class="contact-btn">Contact Me</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="testimonials">
+    <h1 class="title4"><span style="color:#009ffd">See what our students have to say!</span></h1>
+    <div id="carouselExampleControls" class="carousel slide slider" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active testimonial-text">
+          <h2>"Vestibulum euismod ultrices lorem, sodales ultrices dolor fermentum a. Maecenas congue auctor diam, vitae tincidunt purus dictum quis. Fusce dictum risus ac nisl egestas, ut feugiat massa accumsan."</h2>
+          <img class="testimonial-image" src="images/pic.png">
+          <p><em>John, New York</em></p>
+        </div>
+        <div class="carousel-item testimonial-text">
+          <h2>"Vestibulum euismod ultrices lorem, sodales ultrices dolor fermentum a. Maecenas congue auctor diam, vitae tincidunt purus dictum quis. Fusce dictum risus ac nisl egestas, ut feugiat massa accumsan."</h2>
+          <img class="testimonial-image" src="images/pic.png">
+          <p><em>Rohan, Illinois</em></p>
+        </div>
+        <div class="carousel-item testimonial-text">
+          <h2>"Vestibulum euismod ultrices lorem, sodales ultrices dolor fermentum a. Maecenas congue auctor diam, vitae tincidunt purus dictum quis. Fusce dictum risus ac nisl egestas, ut feugiat massa accumsan."</h2>
+          <img class="testimonial-image" src="images/pic.png">
+          <p><em>Piyush, Illinois</em></p>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+  <div class="text-center" style="padding:2rem;">
+    <button type="button" class="btn btn-lg btn-danger">Download the app for free</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
